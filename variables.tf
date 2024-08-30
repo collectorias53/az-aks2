@@ -1,11 +1,11 @@
 variable "resource_group_name" {
   description = "The name of the resource group in which the resources are created."
-  default     = "rg"
+  default     = "rg1"
 }
 
 variable "location" {
   description = "The Azure region where the resources are created."
-  default     = "Australia Central"
+  default     = "East US"
 }
 
 variable "aks_cluster_name" {
